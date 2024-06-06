@@ -25,7 +25,7 @@ export function Project({ title, logo, description, imagePath, projectUrl, githu
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Card className='max-w-64 hover:cursor-pointer'>
+        <Card className='max-w-64 hover:cursor-pointer hover:scale-110 duration-100 mt-1'>
           <CardHeader>
             <div className='flex gap-3'>
               {React.createElement(logo)}

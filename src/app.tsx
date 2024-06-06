@@ -20,11 +20,12 @@ export function App() {
           semestre de Sistemas de Informação na FHO - Uniararas.
         </p>
         <p>
-          Atualmente, estou concentrando meus estudos no desenvolvimento para web e estou aberto a novas oportunidades de trabalho.
+          Atualmente, estou concentrando meus estudos no desenvolvimento para web e estou aberto a novas oportunidades
+          de trabalho.
         </p>
       </div>
       <Separator className='max-w-[75%] lg:max-w-5xl my-3 mx-auto' />
-      <div className='max-w-[75%] lg:max-w-5xl mx-auto'>
+      <div className='max-w-[75%] lg:max-w-5xl mx-auto my-3'>
         <Badge className='mb-3'>Projetos</Badge>
         <Project
           title={'juao.dev'}
